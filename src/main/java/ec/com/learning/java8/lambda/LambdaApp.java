@@ -46,7 +46,7 @@ public class LambdaApp {
         // JDK >= 1.8 -> lambda
         //IOperation operation = (double num1, double num2) -> (num1+num2)/2;
         IOperation operation = (num1, num2) -> (num1+num2)/2;
-        System.out.println(operation.average(2, 3));
+        System.out.println(operation.calculate(2, 3));
     }
 
     public static void main(String[] args) {

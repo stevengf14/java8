@@ -21,7 +21,7 @@ public class Syntax {
             int y = 3;
             return (x + y)/2;
         };*/
-        return operation.average(2, 3);
+        return operation.calculate(2, 3);
     }
 
     public static void main(String[] args) {
