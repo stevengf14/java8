@@ -11,14 +11,13 @@ public class Scopes {
     READ ONLY: for local variables
     WRITE/READ: for global variables or class attributes whether static or not.
      */
-    
     private static double attribute1;
     private double attribute2;
 
     public double testLocalVariable() {
         /* if you dont asign a local variable as final, 
            it will act like one inside a lambda */
-        
+
         // final double num3 = 3;
         double num3 = 3;
         IOperation operation = new IOperation() {
