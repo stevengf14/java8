@@ -1,4 +1,4 @@
-package ec.com.learning.java8.lambda.functionalInterfaces;
+package ec.com.learning.java8.functionalInterfaces;
 
 /**
  *

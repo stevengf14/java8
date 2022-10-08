@@ -1,4 +1,4 @@
-package ec.com.learning.java8.lambda.defaultMethod;
+package ec.com.learning.java8.defaultMethod;
 
 /**
  *
