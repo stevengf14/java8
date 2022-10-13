@@ -24,6 +24,8 @@ public class Main {
     
     public void testParallel(){
         // uising threads
+        
+        // It is not highly recommended to work with parallel streams if java container (example) is used -> many requests in an asynchronous environment can affect performance
         numbers.parallelStream().forEach(System.out::println);
     }
     
